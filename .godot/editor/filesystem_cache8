@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1728952149
+::res://::1728954431
 README.md::TextFile::-1::1728880838::0::1::::<><>::
 ::res://art/::1727054021
 icon.svg::CompressedTexture2D::3147201004558307972::1726874219::1726986912::1::::<><>::
@@ -424,4 +424,4 @@ UI_Wood_Logos_Free.png::CompressedTexture2D::7405653975898710298::1726986759::17
 player.tscn::PackedScene::4840008159960558455::1728880492::0::1::::<><>::res://scripts/player.cs<>uid://c3nqity25uqop::::res://art/Character/PlayerSprite02.png<>uid://bqgcsvnnfsa01::::res://art/PlayerSprite02.png
 world.tscn::PackedScene::4759240653234241805::1728880491::0::1::::<><>::
 ::res://scripts/::1727056409
-player.cs::CSharpScript::-1::1728880483::0::1::::<>CharacterBody2D<>::
+player.cs::CSharpScript::-1::1728954404::0::1::::<>CharacterBody2D<>::

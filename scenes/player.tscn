@@ -269,6 +269,4 @@ script = ExtResource("1_dqaqk")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_x3kpr")
-animation = &"front_idle"
-frame = 2
-frame_progress = 0.277854
+animation = &"side_walk"

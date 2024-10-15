@@ -7,36 +7,81 @@ public partial class player : CharacterBody2D
 	public float Speed = 200.0f;
 	public string current_dir = "none";
 
-	public void play_animation(int movement) {
-		var dir = current_dir;
-
+	public override void _Ready() {
+		CallDeferred("startAnimation");
 	}
 
-	public void GetInput()
-	{
+	private void startAnimation() {
+		var anim = (AnimatedSprite2D)GetNode("AnimatedSprite2D");
+		anim.Play("front_idle");
+	}
+
+	//animation
+	public void play_animation(int movement) {
+		var dir = current_dir;
+		var anim = (AnimatedSprite2D)GetNode("AnimatedSprite2D");
+
+		if (dir == "right") {
+			anim.FlipH = false;
+			if (movement == 1) {
+				anim.Play("side_walk");
+			}
+			else if (movement == 0) {
+				anim.Play("side_idle");
+			}
+		}
+
+		if (dir == "left") {
+			anim.FlipH = true;
+			if (movement == 1) {
+				anim.Play("side_walk");
+			}
+			else if (movement == 0) {
+				anim.Play("side_idle");
+			}
+		}
+
+		if (dir == "up") {
+			anim.FlipH = false;
+			if (movement == 1) {
+				anim.Play("back_walk");
+			}
+			else if (movement == 0) {
+				anim.Play("back_idle");
+			}
+		}
+
+		if (dir == "down") {
+			anim.FlipH = false;
+			if (movement == 1) {
+				anim.Play("front_walk");
+			}
+			else if (movement == 0) {
+				anim.Play("front_idle");
+			}
+		}
+	}
+
+	//input
+	public void GetInput() {
 		Vector2 InputDirection = Input.GetVector("left", "right", "up", "down");
 		Velocity = InputDirection * Speed;
 
-		if (InputDirection == Vector2.Left) {
-			current_dir = "left";
-			play_animation(0);
+		if (InputDirection != Vector2.Zero) {
+			if (Math.Abs(InputDirection.X) > Math.Abs(InputDirection.Y)) {
+				current_dir = InputDirection.X > 0 ? "right" : "left";
+			} else {
+				current_dir = InputDirection.Y > 0 ? "down" : "up";
+			}
+			play_animation(1); // Walk animation
 		}
-		if (InputDirection == Vector2.Right) {
-			current_dir = "right";
-			play_animation(1);
-		}
-		if (InputDirection == Vector2.Up) {
-			current_dir = "up";
-			play_animation(2);
-		}
-		if (InputDirection == Vector2.Down) {
-			current_dir = "down";
-			play_animation(3);
+		
+		else {
+			play_animation(0); // Idle animation
 		}
 	}
 
-		public override void _PhysicsProcess(double delta)
-	{
+		public override void _PhysicsProcess(double delta) {
 		GetInput();
 		MoveAndSlide();
 	}
