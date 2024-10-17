@@ -1,7 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1728954431
+::res://::1729129942
 README.md::TextFile::-1::1728880838::0::1::::<><>::
-::res://art/::1727054021
+::res://art/::1729129942
 icon.svg::CompressedTexture2D::3147201004558307972::1726874219::1726986912::1::::<><>::
 ::res://art/32rogues-0.4.0/::1726987386
 ::res://art/32rogues-0.4.0/32rogues/::1726987548
@@ -160,6 +160,12 @@ Freebies_Icons_Miscellaneous.png::CompressedTexture2D::2666089109590957438::1726
 Freebies_Icons_Potions.png::CompressedTexture2D::6016210160399310615::1726986651::1726986858::1::::<><>::
 Freebies_Icons_Skills.png::CompressedTexture2D::7077688045279515468::1726986651::1726986858::1::::<><>::
 Freebies_Icons_Steampunk.png::CompressedTexture2D::1831314082691015116::1726986651::1726986858::1::::<><>::
+::res://art/mana seed seasonal forest sample (summer)/::1729129913
+Mana Seed readme.txt::TextFile::-1::1729129912::0::1::::<><>::
+seasonal sample (summer).png::CompressedTexture2D::1264958266515203181::1729129912::1729129943::1::::<><>::
+::res://art/mana seed seasonal forest sample (summer)/seasonal water animations/::1729129913
+summer water sparkles B 16x16.png::CompressedTexture2D::756233805886894434::1729129912::1729129943::1::::<><>::
+summer waterfall B 16x16.png::CompressedTexture2D::524040686726194093::1729129912::1729129943::1::::<><>::
 ::res://art/Monster_Pack_21/::1726986662
 ::res://art/Monster_Pack_21/Monster Pack 21 (Bovine)/::1726986662
 ::res://art/Monster_Pack_21/Monster Pack 21 (Bovine)/Spritesheets/::1726986662
@@ -277,7 +283,7 @@ Character_Move_Sword_2.png::CompressedTexture2D::1743891834372441975::1726986681
 7.png::CompressedTexture2D::3594141944958607942::1726986717::1726986872::1::::<><>::
 8.png::CompressedTexture2D::5402246716751633865::1726986717::1726986872::1::::<><>::
 Preview.png::CompressedTexture2D::8990945471786740981::1726986717::1726986872::1::::<><>::
-::res://art/Parallax_Backgrounds_SnowyMountains/::1726986873
+::res://art/Parallax_Backgrounds_SnowyMountains/::1729129942
 0.png::CompressedTexture2D::1635957224888182400::1726986725::1726986873::1::::<><>::
 1.png::CompressedTexture2D::374581907163448769::1726986725::1726986873::1::::<><>::
 2.png::CompressedTexture2D::4130447404974918143::1726986725::1726986873::1::::<><>::
@@ -420,8 +426,8 @@ UI_Font_B.png::CompressedTexture2D::3836806834194775453::1726986759::1726986880:
 UI_Shadow_Font_A.png::CompressedTexture2D::6447343430494394822::1726986759::1726986880::1::::<><>::
 UI_Shadow_Font_B.png::CompressedTexture2D::4288289381069689510::1726986759::1726986880::1::::<><>::
 UI_Wood_Logos_Free.png::CompressedTexture2D::7405653975898710298::1726986759::1726986880::1::::<><>::
-::res://scenes/::1728880492
-player.tscn::PackedScene::4840008159960558455::1728880492::0::1::::<><>::res://scripts/player.cs<>uid://c3nqity25uqop::::res://art/Character/PlayerSprite02.png<>uid://bqgcsvnnfsa01::::res://art/PlayerSprite02.png
-world.tscn::PackedScene::4759240653234241805::1728880491::0::1::::<><>::
+::res://scenes/::1729128819
+player.tscn::PackedScene::4840008159960558455::1729128819::0::1::::<><>::res://scripts/player.cs<>uid://c3nqity25uqop::::res://art/Character/PlayerSprite02.png<>uid://bqgcsvnnfsa01::::res://art/PlayerSprite02.png
+world.tscn::PackedScene::4759240653234241805::1729128818::0::1::::<><>::
 ::res://scripts/::1727056409
-player.cs::CSharpScript::-1::1728954404::0::1::::<>CharacterBody2D<>::
+player.cs::CSharpScript::-1::1728956648::0::1::::<>CharacterBody2D<>::
