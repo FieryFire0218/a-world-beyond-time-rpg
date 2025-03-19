@@ -1,6 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1729129942
-README.md::TextFile::-1::1728880838::0::1::::<><>::
+::res://::1742355468
+README.md::TextFile::-1::1729132932::0::1::::<><>::
 ::res://art/::1729129942
 icon.svg::CompressedTexture2D::3147201004558307972::1726874219::1726986912::1::::<><>::
 ::res://art/32rogues-0.4.0/::1726987386
@@ -160,10 +160,10 @@ Freebies_Icons_Miscellaneous.png::CompressedTexture2D::2666089109590957438::1726
 Freebies_Icons_Potions.png::CompressedTexture2D::6016210160399310615::1726986651::1726986858::1::::<><>::
 Freebies_Icons_Skills.png::CompressedTexture2D::7077688045279515468::1726986651::1726986858::1::::<><>::
 Freebies_Icons_Steampunk.png::CompressedTexture2D::1831314082691015116::1726986651::1726986858::1::::<><>::
-::res://art/mana seed seasonal forest sample (summer)/::1729129913
+::res://art/mana seed seasonal forest sample (summer)/::1729129943
 Mana Seed readme.txt::TextFile::-1::1729129912::0::1::::<><>::
 seasonal sample (summer).png::CompressedTexture2D::1264958266515203181::1729129912::1729129943::1::::<><>::
-::res://art/mana seed seasonal forest sample (summer)/seasonal water animations/::1729129913
+::res://art/mana seed seasonal forest sample (summer)/seasonal water animations/::1729129943
 summer water sparkles B 16x16.png::CompressedTexture2D::756233805886894434::1729129912::1729129943::1::::<><>::
 summer waterfall B 16x16.png::CompressedTexture2D::524040686726194093::1729129912::1729129943::1::::<><>::
 ::res://art/Monster_Pack_21/::1726986662
@@ -381,9 +381,9 @@ Soldier-Idle.png::CompressedTexture2D::6915993221857731404::1726987528::17269875
 Soldier-Shadow_attack2.png::CompressedTexture2D::4148644738906020234::1726987528::1726987547::1::::<><>::
 Soldier-Walk.png::CompressedTexture2D::273138831261868939::1726987528::1726987547::1::::<><>::
 Soldier.png::CompressedTexture2D::5253447182816206646::1726987528::1726987547::1::::<><>::
-::res://art/Tiny RPG Character Asset Pack v1.03b -Free Soldier&Orc/Tiny RPG Character Asset Pack v1.03 -Free Soldier&Orc/Characters(100x100)/Soldier/Soldier/Shadow sprites/::1726987547
+::res://art/Tiny RPG Character Asset Pack v1.03b -Free Soldier&Orc/Tiny RPG Character Asset Pack v1.03 -Free Soldier&Orc/Characters(100x100)/Soldier/Soldier/Shadow sprites/::1742010001
 Soldier-Shadow.png::CompressedTexture2D::3522884598757515146::1726987528::1726987547::1::::<><>::
-Soldier-Shadow_death.png::CompressedTexture2D::2320207357523830862::1726987528::0::1::::<><>::
+Soldier-Shadow_death.png::CompressedTexture2D::2320207357523830862::1726987528::1742010001::1::::<><>::
 ::res://art/Tiny RPG Character Asset Pack v1.03b -Free Soldier&Orc/Tiny RPG Character Asset Pack v1.03 -Free Soldier&Orc/Characters(100x100)/Soldier/Soldier with shadows/::1726987548
 Soldier-Attack01.png::CompressedTexture2D::7745275913560340532::1726987528::1726987547::1::::<><>::
 Soldier-Attack02.png::CompressedTexture2D::6376245314531541213::1726987528::1726987547::1::::<><>::
@@ -393,10 +393,10 @@ Soldier-Hurt.png::CompressedTexture2D::3126477317009043729::1726987528::17269875
 Soldier-Idle.png::CompressedTexture2D::4937035966902113932::1726987528::1726987547::1::::<><>::
 Soldier-Walk.png::CompressedTexture2D::2863744168082570493::1726987528::1726987547::1::::<><>::
 Soldier.png::CompressedTexture2D::2499017270987424820::1726987528::1726987548::1::::<><>::
-::res://art/Tiny RPG Character Asset Pack v1.03b -Free Soldier&Orc/Tiny RPG Character Asset Pack v1.03 -Free Soldier&Orc/Characters(100x100)/Soldier/Soldier(Split Effects)/::1726987548
-Soldier-Attack01_Effect.png::CompressedTexture2D::901168015032075196::1726987528::0::1::::<><>::
-Soldier-Attack02_Effect.png::CompressedTexture2D::7519600341412386029::1726987528::0::1::::<><>::
-Soldier-Attack03_Effect.png::CompressedTexture2D::5738207675182118340::1726987528::0::1::::<><>::
+::res://art/Tiny RPG Character Asset Pack v1.03b -Free Soldier&Orc/Tiny RPG Character Asset Pack v1.03 -Free Soldier&Orc/Characters(100x100)/Soldier/Soldier(Split Effects)/::1742010001
+Soldier-Attack01_Effect.png::CompressedTexture2D::901168015032075196::1726987528::1742010001::1::::<><>::
+Soldier-Attack02_Effect.png::CompressedTexture2D::7519600341412386029::1726987528::1742010001::1::::<><>::
+Soldier-Attack03_Effect.png::CompressedTexture2D::5738207675182118340::1726987528::1742010001::1::::<><>::
 Soldier.png::CompressedTexture2D::2729463217231175782::1726987528::1726987548::1::::<><>::
 ::res://art/UI Packs/::1726986758
 ::res://art/UI Packs/UI Packs/::1726986759
@@ -426,8 +426,8 @@ UI_Font_B.png::CompressedTexture2D::3836806834194775453::1726986759::1726986880:
 UI_Shadow_Font_A.png::CompressedTexture2D::6447343430494394822::1726986759::1726986880::1::::<><>::
 UI_Shadow_Font_B.png::CompressedTexture2D::4288289381069689510::1726986759::1726986880::1::::<><>::
 UI_Wood_Logos_Free.png::CompressedTexture2D::7405653975898710298::1726986759::1726986880::1::::<><>::
-::res://scenes/::1729128819
-player.tscn::PackedScene::4840008159960558455::1729128819::0::1::::<><>::res://scripts/player.cs<>uid://c3nqity25uqop::::res://art/Character/PlayerSprite02.png<>uid://bqgcsvnnfsa01::::res://art/PlayerSprite02.png
-world.tscn::PackedScene::4759240653234241805::1729128818::0::1::::<><>::
+::res://scenes/::1742185140
+player.tscn::PackedScene::4840008159960558455::1742185140::0::1::::<><>::res://scripts/player.cs<>uid://c3nqity25uqop::::res://art/Character/PlayerSprite02.png<>uid://bqgcsvnnfsa01::::res://art/PlayerSprite02.png
+world.tscn::PackedScene::4759240653234241805::1742185140::0::1::::<><>::uid://sa0xbtxx7dj6::::res://art/mana seed seasonal forest sample (summer)/seasonal sample (summer).png<>uid://ca7shyyinta12::::res://scenes/player.tscn
 ::res://scripts/::1727056409
 player.cs::CSharpScript::-1::1728956648::0::1::::<>CharacterBody2D<>::
