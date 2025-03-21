@@ -1,4 +1,4 @@
-[gd_scene load_steps=35 format=3 uid="uid://ca7shyyinta12"]
+[gd_scene load_steps=36 format=3 uid="uid://ca7shyyinta12"]
 
 [ext_resource type="Script" path="res://scripts/player.cs" id="1_dqaqk"]
 [ext_resource type="Texture2D" uid="uid://c3nqity25uqop" path="res://art/Character/PlayerSprite02.png" id="2_itwbg"]
@@ -262,11 +262,19 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_we6dg"]
+radius = 9.0
+
 [node name="player" type="CharacterBody2D"]
 script = ExtResource("1_dqaqk")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-2, 13)
 sprite_frames = SubResource("SpriteFrames_x3kpr")
 animation = &"side_walk"
+offset = Vector2(0, -28)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+y_sort_enabled = true
+position = Vector2(-2, 0)
+shape = SubResource("CircleShape2D_we6dg")

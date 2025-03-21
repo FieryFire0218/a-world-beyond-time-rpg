@@ -84,13 +84,5 @@ public partial class player : CharacterBody2D
 		public override void _PhysicsProcess(double delta) {
 		GetInput();
 		MoveAndSlide();
-
-		var viewportSize = GetViewport().GetVisibleRect().Size;
-		var playerSprite = (AnimatedSprite2D)GetNode("AnimatedSprite2D");
-		var playerRect = new Rect2(Position, playerSprite.RegionRect.Size);
-		Position = new Vector2(
-			Mathf.Clamp(Position.X, 0, viewportSize.X - playerRect.Size.X),
-			Mathf.Clamp(Position.Y, 0, viewportSize.Y - playerRect.Size.Y)
-		);
 	}
 }

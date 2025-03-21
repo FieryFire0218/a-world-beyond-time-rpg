@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1742355468
+::res://::1742526318
 README.md::TextFile::-1::1729132932::0::1::::<><>::
 ::res://art/::1729129942
 icon.svg::CompressedTexture2D::3147201004558307972::1726874219::1726986912::1::::<><>::
@@ -426,8 +426,8 @@ UI_Font_B.png::CompressedTexture2D::3836806834194775453::1726986759::1726986880:
 UI_Shadow_Font_A.png::CompressedTexture2D::6447343430494394822::1726986759::1726986880::1::::<><>::
 UI_Shadow_Font_B.png::CompressedTexture2D::4288289381069689510::1726986759::1726986880::1::::<><>::
 UI_Wood_Logos_Free.png::CompressedTexture2D::7405653975898710298::1726986759::1726986880::1::::<><>::
-::res://scenes/::1742185140
-player.tscn::PackedScene::4840008159960558455::1742185140::0::1::::<><>::res://scripts/player.cs<>uid://c3nqity25uqop::::res://art/Character/PlayerSprite02.png<>uid://bqgcsvnnfsa01::::res://art/PlayerSprite02.png
-world.tscn::PackedScene::4759240653234241805::1742185140::0::1::::<><>::uid://sa0xbtxx7dj6::::res://art/mana seed seasonal forest sample (summer)/seasonal sample (summer).png<>uid://ca7shyyinta12::::res://scenes/player.tscn
+::res://scenes/::1742357673
+player.tscn::PackedScene::4840008159960558455::1742357673::0::1::::<><>::res://scripts/player.cs<>uid://c3nqity25uqop::::res://art/Character/PlayerSprite02.png<>uid://bqgcsvnnfsa01::::res://art/PlayerSprite02.png
+world.tscn::PackedScene::4759240653234241805::1742357673::0::1::::<><>::uid://sa0xbtxx7dj6::::res://art/mana seed seasonal forest sample (summer)/seasonal sample (summer).png<>uid://ca7shyyinta12::::res://scenes/player.tscn
 ::res://scripts/::1727056409
-player.cs::CSharpScript::-1::1728956648::0::1::::<>CharacterBody2D<>::
+player.cs::CSharpScript::-1::1742357756::0::1::::<>CharacterBody2D<>::
